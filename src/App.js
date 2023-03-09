@@ -3,7 +3,7 @@ import News from './components/News.jsx'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-danger">
       <News/>
     </div>
   );

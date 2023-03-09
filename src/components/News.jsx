@@ -36,7 +36,7 @@ function News() {
         <br />
         <br />
 
-        <div className="col-md-9 py-md-3">
+        <div className="col-md-9 py-md-3 mb-3 bg-danger" >
           <div className="searchInput_Container"></div>
           <br />
           <br />
@@ -90,7 +90,7 @@ function News() {
         <br />
         <br />
 
-        <div className="col-md-15 py-md-3">
+        <div className="col-md-15 py-md-3 bg-danger">
           <div className="row">
             {filter.map((news, index) => {
               return (
@@ -127,7 +127,7 @@ function News() {
       <br />
       <input
         type="text"
-        className="form-control align-items-centre sticky-top"
+        className="form-control align-items-centre sticky-top mb-3"
         placeholder="Search headlines"
         style={{ width: "100%", borderRadius: "30px", border: "2px solid" }}
         onChange={(e) => {
